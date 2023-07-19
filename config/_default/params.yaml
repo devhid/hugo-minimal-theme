@@ -8,7 +8,7 @@
 appearance:
   theme_day:
   theme_night: minimal
-  font: Mr Robot
+  font: modern
   font_size: L
 
 # SEO
