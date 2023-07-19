@@ -20,6 +20,8 @@ sections:
           filename: space.jpg
           size: cover
           position: center
+          filters:
+            brightness: 0.8
           parallax: false
       css_class: d-flex fullscreen align-items-center
 ---
