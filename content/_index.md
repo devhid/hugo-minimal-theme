@@ -10,7 +10,7 @@ sections:
       username: admin
       text: |-
         👋 Hi, there! I'm **Mikey**, an automation engineer at Haven Technologies.
-        {style="font-size: 1.2rem; background: #ff008d; background: linear-gradient(to right, #fe0b6c 0%, #ff0081 30%, #ff0098 60%, #f900b0 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
+        {style="font-size: 1.2rem; background: #ff008d; background: linear-gradient(to right, #fc5d8a 0%, #ff62a2 30%, #ff6aba 60%, #fa74d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
     design:
       background:
         color: black
