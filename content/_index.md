@@ -10,7 +10,7 @@ sections:
       username: admin
       text: |-
         👋 Hi, there! I'm **Mikey**, an automation engineer at Haven Technologies.
-        {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #1eff00 0%, #75ff00 30%, #a3ff00 60%, #c6ff00 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
+        {style="font-size: 1.2rem; background: #ff008d; background: linear-gradient(to right, #fe0b6c 0%, #ff0081 30%, #ff0098 60%, #f900b0 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
     design:
       background:
         color: black
@@ -18,8 +18,6 @@ sections:
         image:
           # Add your image background to `assets/media/`.
           filename: space.jpg
-          filters:
-            brightness: 0.4
           size: cover
           position: center
           parallax: false
