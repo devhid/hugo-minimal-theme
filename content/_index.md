@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
-date: 2022-10-24
+title: Mankirat Gulati
+date: 2023-07-19
 type: landing
 sections:
   - block: about.avatar
