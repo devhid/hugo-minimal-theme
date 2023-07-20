@@ -23,7 +23,6 @@ sections:
         text_color_light: true
         image:
           # Add your image background to `assets/media/`.
-          filename: space.jpg
           size: cover
           position: center
           filters:
