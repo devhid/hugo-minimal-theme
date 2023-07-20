@@ -10,12 +10,9 @@ sections:
       username: admin
       text: |-
         👋
-        {style="font-size: 1.2rem; background: #ff008d; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
-        Hi, there! I'm
-        {style="font-size: 1.2rem; background: #ff008d; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
-        **Mikey**
-        {style="font-size: 1.2rem; background: #ebebeb; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
-        , an automation engineer at Haven Technologies.
+        {style="font-size: 1.2rem; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"} Hi, there! I'm
+        {style="font-size: 1.2rem; background: #ff008d; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"} **Mikey**
+        {style="font-size: 1.2rem; background: #ebebeb; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}, an automation engineer at Haven Technologies.
         {style="font-size: 1.2rem; background: #ff008d; background: linear-gradient(to right, #fc5d8a 0%, #ff62a2 30%, #ff6aba 60%, #fa74d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
     design:
       background:
