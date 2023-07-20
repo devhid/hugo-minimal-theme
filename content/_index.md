@@ -9,7 +9,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: |-
-        I'm an experienced automation engineer / software developer specializing in designing and implementing robust automation frameworks. I have a proven track record of optimizing testing processes and delivering high-quality software.
+        👋 Hi, there! I'm **Mikey**, an automation engineer at Haven Technologies.
         {style="font-size: 1.2rem; background: #ff008d; background: linear-gradient(to right, #fc5d8a 0%, #ff62a2 30%, #ff6aba 60%, #fa74d2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
     design:
       background:
