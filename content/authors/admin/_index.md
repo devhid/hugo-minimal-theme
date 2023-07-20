@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Mankirat Gulati
+title: 👋🏽 Hi, I'm Mikey.
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: ''
+role: 'Automation Engineer'
 
 # Status emoji
 status:
