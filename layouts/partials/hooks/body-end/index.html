@@ -19,7 +19,7 @@ let currentRoleIndex = 0;
 let currentCharIndex = 0;
 const roleElementParent = document.querySelector("div[class='article-style pt-1']");
 
-roleElementParent.innerHTML = `<p>Hi I'm Mikey. I am <span id="role"></span>.</p>`
+roleElementParent.innerHTML = `<p>Hi, I'm Mikey. I am <span id="role"></span>.</p>`
 const roleElement = document.getElementById("role");
 
 function typeRole() {
@@ -30,7 +30,7 @@ function typeRole() {
   if (currentCharIndex > currentRole.length) {
     setTimeout(eraseRole, 2000); // Pause for 2 seconds before erasing
   } else {
-    setTimeout(typeRole, 100); // Typing speed (adjust as desired)
+    setTimeout(typeRole, 50); // Typing speed (adjust as desired)
   }
 }
 
@@ -39,11 +39,12 @@ function eraseRole() {
   roleElement.textContent = currentRole.substring(0, currentCharIndex);
   currentCharIndex--;
 
-  if (currentCharIndex === 0) {
+if (currentCharIndex === 0) {
     currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+    setTimeout(typeRole, 500); // Pause for a short time before retyping the next role
+  } else {
+    setTimeout(eraseRole, 50); // Erasing speed (adjust as desired)
   }
-
-  setTimeout(typeRole, 100); // Typing speed for the next role
 }
 
 // Start the typewriter effect
