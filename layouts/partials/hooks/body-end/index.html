@@ -12,3 +12,37 @@ VANTA.BIRDS({
   scaleMobile: 1.00
 })
 </script>
+
+<script>
+const roles = ["Software Developer", "Automation Engineer", "Dancer", "Pool Shark", "Pianist"];
+let currentRoleIndex = 0;
+let currentCharIndex = 0;
+const roleElement = document.querySelector("div[class='article-style pt-1'] p");
+
+function typeRole() {
+  const currentRole = roles[currentRoleIndex];
+  roleElement.textContent = currentRole.substring(0, currentCharIndex);
+  currentCharIndex++;
+
+  if (currentCharIndex > currentRole.length) {
+    setTimeout(eraseRole, 2000); // Pause for 2 seconds before erasing
+  } else {
+    setTimeout(typeRole, 100); // Typing speed (adjust as desired)
+  }
+}
+
+function eraseRole() {
+  const currentRole = roles[currentRoleIndex];
+  roleElement.textContent = currentRole.substring(0, currentCharIndex);
+  currentCharIndex--;
+
+  if (currentCharIndex === 0) {
+    currentRoleIndex = (currentRoleIndex + 1) % roles.length;
+  }
+
+  setTimeout(typeRole, 100); // Typing speed for the next role
+}
+
+// Start the typewriter effect
+typeRole();
+</script>
