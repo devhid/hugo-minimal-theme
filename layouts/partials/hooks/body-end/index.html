@@ -14,12 +14,14 @@ VANTA.BIRDS({
 </script>
 
 <script>
-const roles = ["a Software Developer", "an Automation Engineer", "a Dancer", "a Pool Shark", "a Pianist"];
+// const roles = ["a Software Developer", "an Automation Engineer", "a Dancer", "a Pool Shark", "a Pianist"];
+const roles = ["have dance battles", "shoot hoops", "play the piano", "go swimming in the pool", "work out"];
+
 let currentRoleIndex = 0;
 let currentCharIndex = 0;
 const roleElementParent = document.querySelector("div[class='article-style pt-1']");
 
-roleElementParent.innerHTML = `<p>👋 Hi, I'm Mikey. I am <span style="color: #ff008d" id="role"></span>.</p>`
+roleElementParent.innerHTML = `<p>👋 Hi there! I'm Mikey an <span style="color: #ff008d">automation engineer</span> who also loves to <span style="color: #ff008d" id="role"></span>.</p>`
 const roleElement = document.getElementById("role");
 
 function typeRole() {
