@@ -28,11 +28,14 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:mankirat.gulati@gmail.com'
+    label: Email Me
   - icon: linkedin
     icon_pack: fab
+    label: View LinkedIn Profile
     link: https://linkedin.com/in/mikeygulati
   - icon: github
     icon_pack: fab
+    label: View Projects on GitHub
     link: https://github.com/devhid
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/uploads/resume.pdf`
