@@ -32,7 +32,7 @@ function typeRole() {
   if (currentCharIndex > currentRole.length) {
     setTimeout(eraseRole, 2000); // Pause for 2 seconds before erasing
   } else {
-    setTimeout(typeRole, 90); // Typing speed (adjust as desired)
+    setTimeout(typeRole, 75); // Typing speed (adjust as desired)
   }
 }
 
@@ -45,7 +45,7 @@ if (currentCharIndex === 0) {
     currentRoleIndex = (currentRoleIndex + 1) % roles.length;
     setTimeout(typeRole, 500); // Pause for a short time before retyping the next role
   } else {
-    setTimeout(eraseRole, 90); // Erasing speed (adjust as desired)
+    setTimeout(eraseRole, 75); // Erasing speed (adjust as desired)
   }
 }
 
