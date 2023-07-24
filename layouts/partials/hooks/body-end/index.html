@@ -13,7 +13,7 @@ VANTA.BIRDS({
 })
 </script>
 
-/*<script>
+<script>
 // const roles = ["a Software Developer", "an Automation Engineer", "a Dancer", "a Pool Shark", "a Pianist"];
 const roles = ["have dance battles 🕺🏽", "shoot hoops 🏀", "play the piano 🎹", "go swimming 🏊🏽‍♂️", "work out 💪🏽"];
 
@@ -21,8 +21,10 @@ let currentRoleIndex = 0;
 let currentCharIndex = 0;
 const roleElementParent = document.querySelector("div[class='article-style pt-1']");
 
-roleElementParent.innerHTML = `<p>👋 Hi there! I'm Mikey, an <span style="color: #51ff00">automation engineer</span></p><p style="font-size: 0.6rem">who also loves to <span style="color: #ff008d" id="role"></span>.</p>`
-const roleElement = document.getElementById("role");
+// roleElementParent.innerHTML = `<p>👋 Hi there! I'm Mikey, an <span style="color: #51ff00">automation engineer</span></p><p style="font-size: 0.6rem">who also loves to <span style="color: #ff008d" id="role"></span>.</p>`
+roleElementParent.innerHTML = `<p>👋 Hi there! I'm Mikey, an <span style="color: #51ff00">automation engineer</span>.</p>`
+
+/*const roleElement = document.getElementById("role");
 
 function typeRole() {
   const currentRole = roles[currentRoleIndex];
@@ -50,5 +52,5 @@ if (currentCharIndex === 0) {
 }
 
 // Start the typewriter effect
-typeRole();
-</script>*/
+typeRole();*/
+</script>
