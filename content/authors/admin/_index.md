@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Mankirat Gulati
+title: Mikey Gulati
 
 # Is this the primary user of the site?
 superuser: true
@@ -27,7 +27,7 @@ bio: ''
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:mankirat.gulati@gmail.com'
+    link: 'mailto:mikeygulati@gmail.com'
     label: Email Me
   - icon: linkedin
     icon_pack: fab
