@@ -21,8 +21,13 @@ let currentRoleIndex = 0;
 let currentCharIndex = 0;
 const roleElementParent = document.querySelector("div[class='article-style pt-1']");
 const portraitTitleElement = document.querySelector("div[class='portrait-title']");
+const iconElements = document.querySelector(".network-icon li");
+    var index = 0, length = iconElements.length;
+    for ( ; index < length; index++) {
+        iconElements[index].style.padding="0 0.6rem";
+    }
 
-  portraitTitleElement.innerHTML = `<p style="font-size: 2.8rem; margin-bottom: 0; display: inline-block;">👋 Hi there! I'm Mikey, a <span style="color: #ff70ee;">Software Engineer</span></p><p style="font-size: 1rem; font-weight: 300;">Find out more about me.</p>`
+  portraitTitleElement.innerHTML = `<p style="font-size: 2.4rem; margin-bottom: 0;">👋 Hi there! I'm Mikey. <span style="color: #ff70ee;">Software Engineer</span></p><p style="font-size: 1rem; font-weight: 400; margin-bottom: 0.1rem;">Find out more about me.</p>`
 
 // roleElementParent.innerHTML = `<p>👋 Hi there! I'm Mikey, an <span style="color: #51ff00">automation engineer</span></p><p style="font-size: 0.6rem">who also loves to <span style="color: #ff008d" id="role"></span>.</p>`
 // roleElementParent.innerHTML = `<p>👋 Hi there! I'm Mikey, an <span style="color: #51ff00">automation engineer</span>.</p>`
